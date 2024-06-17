@@ -37,13 +37,13 @@ Aplikasi reservasi restoran yang memungkinkan pengguna untuk mencari dan memesan
 
 2. Install dependensi:
 
-   ```npm install
+   npm install
 
 3. Buat file .env dari contoh .env.example dan sesuaikan konfigurasi basis data PostgreSQL Anda.
 
 4. Jalankan migrasi basis data untuk membuat skema tabel:
 
-   ```npx knex migrate:latest
+   npx knex migrate:latest
 
  ### Frontend
 
@@ -54,11 +54,11 @@ Aplikasi reservasi restoran yang memungkinkan pengguna untuk mencari dan memesan
 
 2. Install dependensi:
 
-    ```npm install
-    ```npm install react-bootstrap bootstrap
+    npm install
+    npm install react-bootstrap bootstrap
 
 3. Jalankan aplikasi frontend:
 
-    ```npm start
+    npm start
 
    
